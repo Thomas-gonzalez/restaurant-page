@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+#footer {
+    background-color: lightblue;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 40px 1fr 20px;
+    height: 100vh;
+}
